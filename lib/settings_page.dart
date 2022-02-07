@@ -71,13 +71,16 @@ class _SettingsPageState extends State<SettingsPage> {
                   ),
                 ),
                 Expanded(
-                  child: Text(
-                    "iCloud",
-                    style: whiteTextStyle,
+                  child: Padding(
+                    padding: const EdgeInsets.only(left: 8),
+                    child: Text(
+                      "iCloud",
+                      style: whiteTextStyle,
+                    ),
                   ),
                 ),
                 Text(
-                  "data",
+                  "Disabled",
                   style: whiteTextStyle,
                 ),
                 Text(
